@@ -1,0 +1,90 @@
+.search-bar{
+  margin:50px;
+  text-align: center;
+}
+.search-bar input{
+  width: 100%;
+  border: 1px solid #c6c6c6;
+  height: 40px;
+  padding-left: 26px;
+  outline-width: 0;
+}
+.video-item-img{
+  max-width: 64px;
+}
+.video-detail .details{
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.list-group-item{
+  cursor: pointer;
+}
+.list-group-item:hover{
+  background: #eee;
+}
+.SearchBtn {
+  width: 20%;
+  height: 40px;
+  margin: 0 15px;
+  position: relative;
+  right: 211px;
+}
+.search-header {
+  display: flex;
+}
+.searchInner {
+  width:80%
+}
+.search-list {
+  width: 100%;
+  max-height: 500px;
+  overflow: scroll;
+  border: 1px solid rgba(0,0,0,0.32);
+}
+.video-list {
+  padding: 0;
+  width: 100%;
+}
+.item-container {
+  display: flex;
+}
+.item-left {
+  width:70%;
+}
+.img-container {
+  width: 100px;
+}
+.item-right {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+.description {
+  text-align: left;
+}
+.playlist-container {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  top: 9%;
+  right: 0;
+  border: 1px solid red;
+  max-height: 400px;
+  overflow: scroll;
+}
+.addRemoveBtn {
+  width:100px;
+  height:40px;
+}
+.video-player {
+  padding:10px;
+}
+.my-playlist {
+  height: 40px;
+  padding: 10px;
+}
